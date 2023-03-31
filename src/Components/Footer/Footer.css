@@ -1,0 +1,94 @@
+.footer__container {
+    margin-top: 182px;
+    text-align: center;
+}
+.footer__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #31353B;
+}
+.footer__subtitle {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #31353B;
+    margin: 11px 0 34px;
+}
+.footer__form {
+    max-width: 686px;
+    margin: 0 auto 100px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04), 0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704), 0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963), 0px 32.6px 13px rgba(0, 0, 0, 0.02), 0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037), 0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963);
+
+}
+.footer__form-container {
+    margin-left: 45px;
+    flex: 1 1 auto;
+}
+.footer__form-help {
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #31353B;
+    opacity: 0.2;
+}
+.footer__input {
+    width: 100%;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+}
+.footer__input::placeholder {
+    color: #31353B;
+    opacity: 0.3;
+}
+.footer__input:hover {
+    cursor: pointer;
+}
+.footer__btn {
+    padding: 23px 40px;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    background: #F85A47;
+    box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+}
+.footer__btn:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 3px #ffffff;
+}
+
+.footer__logo-container {
+    max-width: 890px;
+    padding-top: 50px;
+    margin: 0 auto 30px;
+    border-top: 1px solid #DEDFE1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer__copyring {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #31353B;
+}
+.footer__logo {
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 31px;
+    color: #31353B;
+}

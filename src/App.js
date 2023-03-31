@@ -8,6 +8,7 @@ import Portfolio from './Components/Portfolio/Portfolio';
 import Service from './Components/Service/Service';
 import { Route, Routes } from 'react-router-dom';
 import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
 
 function App(props) {
   return (
@@ -22,6 +23,7 @@ function App(props) {
         <Route path='contact' element={<Contact />} />
       </Routes>
       <Main main={props.data.main} />
+      <Footer footer={props.data.footer} />
     </div>
   );
 }

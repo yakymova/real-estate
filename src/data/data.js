@@ -92,6 +92,14 @@ let state = {
                 industrial: [industrial1, industrial2, industrial3],
             }
         },
+    },
+    footer: {
+        title: 'Get Our Newsletter',
+        subtitle: 'To join the worldwide community',
+        formHelp: 'Type your Email Address',
+        formButton: 'Send Now',
+        logo: 'SmartSpace',
+        copyring: 'Copyright © 2021 AR Shakir . All Rights Reseved.'
     }
 }
 

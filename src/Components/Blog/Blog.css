@@ -27,6 +27,7 @@
     font-weight: 800;
     font-size: 54px;
     line-height: 73px;
+    opacity: 0.3;
 } 
 .blog_article {
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
@@ -35,6 +36,10 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+.blog_article:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .blog_article__title {
     text-align: center;

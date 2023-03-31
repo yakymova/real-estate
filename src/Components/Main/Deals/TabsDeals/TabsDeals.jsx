@@ -13,9 +13,9 @@ const TabsDeals = (props) => {
     const [state, setState] = useState(images[0]);
     const [status, setStatus] = useState(0);
 
-    let changeState = id => {
-        setState(() => images[id]);
-        setStatus(() => id);
+    let changeState = ind => {
+        setState(() => images[ind]);
+        setStatus(() => ind);
     }
 
     return (

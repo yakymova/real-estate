@@ -23,6 +23,7 @@
     font-size: 54px;
     line-height: 73px;
     margin-bottom: 30px;
+    opacity: 0.3;
 }
 .about__text-block {
     flex: 0 1 45%;
