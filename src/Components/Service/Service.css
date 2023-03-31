@@ -1,6 +1,6 @@
 .service__container {
     padding-top: 130px;
-    height: 837px;
+    min-height: 837px;
     position: relative;
 }
 @media (max-width:1998.98px) {
@@ -19,9 +19,13 @@
     z-index: -1; 
 }
 .service__article {
-    padding-bottom: 50px; 
-    margin-bottom: 25px;
-    border-style: inset;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.service__article:nth-of-type(2) {
+    flex-direction: row-reverse;
+    text-align: right;
 }
 .service__title {
     text-align: center;
@@ -31,11 +35,29 @@
     margin-bottom: 20px;
     opacity: 0.3;
 }
+.article__content {
+    flex: 0 1 75%;
+}
 .article__title {
+    color: rgb(71, 121, 168);
     margin-bottom: 10px;
-    padding: 10px 0 0 50px;
     font-size: 20px;
 }
-.article__btn {
-    float: right;
+.article__text {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.article__icon {
+    flex: 0 1 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon1 {
+    background-image: url(../../assets/icons/service/item1.webp);
+}
+.icon2 {
+    background-image: url(../../assets/icons/service/icon2.png);
+}
+.icon3 {
+    background-image: url(../../assets/icons/service/icon3.webp);
 }

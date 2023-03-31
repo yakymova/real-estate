@@ -20,9 +20,20 @@ import industrial3 from '../assets/images/deals/industrial/item3.jpg';
 import residential1 from '../assets/images/deals/residential/item1.jpg';
 import residential2 from '../assets/images/deals/residential/item2.jpg';
 import residential3 from '../assets/images/deals/residential/item3.jpg';
+import facebook from '../assets/icons/contacts/facebook.svg';
+import instagram from '../assets/icons/contacts/instagram.svg';
+import twitter from '../assets/icons/contacts/twitter.svg';
+import linkedin from '../assets/icons/contacts/linkedin.svg';
 
 
 let state = {
+    contactsAside: [
+        { icon: facebook, url: 'https://facebook.com/' },
+        { icon: instagram, url: '"https://www.instagram.com/' },
+        { icon: twitter, url: 'https://twitter.com/' },
+        { icon: linkedin, url: 'https://www.linkedin.com/' },
+    ],
+
     header: {
         logo: 'SmartSpace',
         links: [

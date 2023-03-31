@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    .aside__contacts {
+        display: grid;
+        width: 21px;
+        gap: 27px;
+        position: fixed;
+        top: 300px;
+        right: 15px;
+    }
+    .aside__contact {
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .aside__contact:hover {
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1920px) {
+    .aside__contacts {
+        display: none;
+    }
+}

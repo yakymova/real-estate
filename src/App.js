@@ -9,11 +9,13 @@ import Service from './Components/Service/Service';
 import { Route, Routes } from 'react-router-dom';
 import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer';
+import ContactsAside from './Components/ContactsAside/ContactsAside';
 
 function App(props) {
   return (
     <div className="App">
       <Header header={props.data.header} />
+      <ContactsAside icons={props.data.contactsAside} />
       <Routes>
         <Route path='/' element={<StartPage start={props.data.homeBlock} partners={props.data.partners} />} />
         <Route path='about' element={<About />} />
