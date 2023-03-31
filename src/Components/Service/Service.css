@@ -1,0 +1,40 @@
+.service__container {
+    padding-top: 130px;
+    height: 837px;
+    position: relative;
+}
+@media (max-width:1998.98px) {
+    .service__container {
+        height: auto;
+    }
+}
+.service__container::after {
+    content: "";
+    background-color: #f2bdff45;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 68%;
+    z-index: -1; 
+}
+.service__article {
+    padding-bottom: 50px; 
+    margin-bottom: 25px;
+    border-style: inset;
+}
+.service__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 73px;
+    margin-bottom: 20px;
+}
+.article__title {
+    margin-bottom: 10px;
+    padding: 10px 0 0 50px;
+    font-size: 20px;
+}
+.article__btn {
+    float: right;
+}

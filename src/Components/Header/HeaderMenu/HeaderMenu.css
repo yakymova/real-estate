@@ -1,0 +1,28 @@
+.header__items {
+    display: flex;
+    gap: 46px;
+}
+.header__item {
+    list-style: none;
+    text-decoration: none;
+    cursor: default;
+    color: #000000;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+}
+.header__item:not(.active):hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #d0c0a8
+}
+
+.header__item.active {
+    border-bottom: 1px solid #000000;
+}
+
+@media (max-width: 990.98px) {
+    .header__items {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}

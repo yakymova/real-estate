@@ -1,0 +1,30 @@
+.header__container {
+    position: relative;
+} 
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    z-index: 3;
+} 
+.header__logo {
+    color: #31353B;
+    font-weight: 800;
+    Font-size: 23px;
+    line-height: 31px;
+}
+
+@media (max-width: 1998.98px) {
+    .header__logo {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 574.98px) {
+    .header__content {
+        flex-direction: column;
+    }
+}

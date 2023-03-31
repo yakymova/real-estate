@@ -1,0 +1,9 @@
+.portfolio__container {
+    padding-top: 130px;
+}
+.portfolio__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 73px;
+}

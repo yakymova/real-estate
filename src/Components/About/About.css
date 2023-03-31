@@ -1,0 +1,93 @@
+.about__container {
+    padding-top: 130px;
+    height: 837px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+.about__container::after {
+    content: "";
+    background-color: #079e2d7c;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 68%;
+    z-index: -1; 
+}
+.about__title {
+    flex: 1 0 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 73px;
+    margin-bottom: 30px;
+}
+.about__text-block {
+    flex: 0 1 45%;
+    text-align: right;
+}
+.about__text {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #31353B;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+.about__btn {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px 0 10px 0;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.492);
+    box-shadow: 1px 1px 1px 1px aquamarine;
+    color: #fff;
+    transition: all 0.5s;
+} 
+.about__btn:hover {
+    font-size: 20px;
+    background-color: aquamarine;
+    color: #000;
+}
+.about__btn:active {
+    color: #000;
+    background-color: #fff;
+}
+.about__img {
+    flex: 0 1 50%;
+    position: relative;
+    opacity: 0.9;
+    padding-bottom: 50%;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.03)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.015)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222));
+}
+.about__img img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+}
+
+@media (max-width: 767.98px) {
+    .about__container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .about__title {
+        flex: 0 1 auto;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .about__text-block {
+        flex: 0 1 auto;
+    }
+    .about__img {
+        display: none;
+    }
+}
