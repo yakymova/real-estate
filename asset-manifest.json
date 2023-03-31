@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/real-estate/static/css/main.b37c5e2a.css",
-    "main.js": "/real-estate/static/js/main.cb79eb90.js",
+    "main.css": "/real-estate/static/css/main.217c95ca.css",
+    "main.js": "/real-estate/static/js/main.7bc717df.js",
     "static/media/item1.jpg": "/real-estate/static/media/item1.24c64e0196a3fbceb334.jpg",
     "static/media/item3.jpg": "/real-estate/static/media/item3.3c60595a7a15fbc8062e.jpg",
     "static/media/start_image.png": "/real-estate/static/media/start_image.5f1af7b90b8bd4afedd0.png",
     "static/media/about-image.png": "/real-estate/static/media/about-image.d13ef861c63150e9df7f.png",
+    "static/media/blog-image.jpg": "/real-estate/static/media/blog-image.b55b0b6bd36b4b5014ac.jpg",
     "static/media/item2.jpg": "/real-estate/static/media/item2.61a6e60ace5a46ef22a5.jpg",
+    "static/media/icon2.png": "/real-estate/static/media/icon2.7f28e3dd0933785df004.png",
+    "static/media/icon3.webp": "/real-estate/static/media/icon3.deb090360402f74a8d3e.webp",
     "static/media/3.svg": "/real-estate/static/media/3.0d748fb6723faa63e4939a62d7533923.svg",
+    "static/media/item1.webp": "/real-estate/static/media/item1.0c55cd0b502f1a538941.webp",
     "static/media/5.svg": "/real-estate/static/media/5.cd5627d79d8a3ecc237cc666d65ede86.svg",
     "static/media/track.svg": "/real-estate/static/media/track.af43b0589fbab2d02213951e91f9c40e.svg",
     "static/media/instant.svg": "/real-estate/static/media/instant.91f1b31918e2462cbf8235ccd36bacb2.svg",
@@ -16,14 +20,18 @@
     "static/media/1.svg": "/real-estate/static/media/1.0412f4111b960dfa51e0d57a4d8a05db.svg",
     "static/media/icon_for_input_header.svg": "/real-estate/static/media/icon_for_input_header.9c40cfa3e8bf50e3c75a.svg",
     "static/media/2.svg": "/real-estate/static/media/2.d31a9aa0476f713de62f794c5ca3ebdd.svg",
+    "static/media/instagram.svg": "/real-estate/static/media/instagram.6d34202aacfaf4b7d3a2de5c3c9798e2.svg",
+    "static/media/twitter.svg": "/real-estate/static/media/twitter.fcefb89e1f0341def19aa002b16c9421.svg",
+    "static/media/facebook.svg": "/real-estate/static/media/facebook.6bdb09bdea37c26a1b2b9882b83b3b8b.svg",
+    "static/media/linkedin.svg": "/real-estate/static/media/linkedin.9e0e4b117282ec237bf15e2a506c3e24.svg",
     "static/media/research.svg": "/real-estate/static/media/research.96a6fdd4975042821be760582e60d43b.svg",
     "index.html": "/real-estate/index.html",
     "static/media/line.svg": "/real-estate/static/media/line.7ff50b7680a78ac8f01b.svg",
-    "main.b37c5e2a.css.map": "/real-estate/static/css/main.b37c5e2a.css.map",
-    "main.cb79eb90.js.map": "/real-estate/static/js/main.cb79eb90.js.map"
+    "main.217c95ca.css.map": "/real-estate/static/css/main.217c95ca.css.map",
+    "main.7bc717df.js.map": "/real-estate/static/js/main.7bc717df.js.map"
   },
   "entrypoints": [
-    "static/css/main.b37c5e2a.css",
-    "static/js/main.cb79eb90.js"
+    "static/css/main.217c95ca.css",
+    "static/js/main.7bc717df.js"
   ]
 }
