@@ -78,6 +78,9 @@
     }
 }
 @media (max-width: 992px) {
+    .how-it {
+        margin-top: 150px;
+    }
     .item:first-child:after{
         transform: translate(135%);
     }
@@ -86,6 +89,9 @@
     }
 }
 @media (max-width: 768px) {
+    .how-it {
+        margin-top: 100px;
+    }
     .item::after {
         display: none;
     }

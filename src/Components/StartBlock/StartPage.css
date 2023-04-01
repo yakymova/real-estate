@@ -57,8 +57,14 @@
     margin: 23px 0 48px;
 }
 
+@media (max-width: 992px) {
+    .home__container {
+        padding-top: 150px;
+    }
+}
 @media (max-width: 767.98px) {
     .home__container {
+        padding-top: 100px;
         flex-direction: column;
     }
     .text-block__title {
