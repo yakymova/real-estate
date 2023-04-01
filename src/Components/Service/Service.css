@@ -41,10 +41,10 @@
 .article__title {
     color: rgb(71, 121, 168);
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 26px;
 }
 .article__text {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: justify;
 }
 .article__icon {
@@ -60,4 +60,29 @@
 }
 .icon3 {
     background-image: url(../../assets/icons/service/icon3.webp);
+}
+
+.service__article-btn {
+    font-family: inherit;
+    color: rgb(71, 121, 168);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: none;
+    box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+.service__article-btn::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url('../../assets/icons/arrow.png');
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service__article-btn:hover {
+    box-shadow: 1px 1px 1px 0 #000;
 }

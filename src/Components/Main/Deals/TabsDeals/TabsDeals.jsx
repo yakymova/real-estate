@@ -1,33 +1,47 @@
 import "./TabsDeals.css";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+
+let images = [];
 
 const TabsDeals = (props) => {
-    // let images = {
-    //     agriculture: props.deals.images.agriculture,
-    //     commercial: props.deals.images.commercial,
-    //     industrial: props.deals.images.industrial,
-    //     residential: props.deals.images.residential,
-    // }
 
-    let images = [props.deals.images.residential, props.deals.images.commercial, props.deals.images.agriculture, props.deals.images.industrial];
-    const [state, setState] = useState(images[0]);
-    const [status, setStatus] = useState(0);
+    let inputImages = props.deals.images;
+
+    const [image, setImage] = useState([]);
+    const [activeLink, setActiveLink] = useState(0);
 
     let changeState = ind => {
-        setState(() => images[ind]);
-        setStatus(() => ind);
+        setActiveLink(() => ind);
+        setImage(() => images[ind]);
     }
+
+    useEffect(() => {
+        function preload(path) {
+            const img = new Image();
+            img.src = path;
+            return img;
+        }
+
+        for (const key in inputImages) {
+            let item = [];
+            inputImages[key].map(img => item.push(preload(img)));
+            images.push(item);
+
+        }
+
+        setImage(images[0]);
+    }, [inputImages])
 
     return (
         <div className="deals__tabs">
             <div className="tabs__controls">
                 {
-                    props.deals.buttons.map((btn, ind) => <button className={`tabs__btn ${ind === status ? 'active' : ''}`} onClick={() => changeState(ind)}>{btn}</button>)
+                    props.deals.buttons.map((btn, ind) => <button className={`tabs__btn ${ind === activeLink ? 'active' : ''}`} onClick={() => changeState(ind)}>{btn}</button>)
                 }
             </div>
             <div className="tabs__images">
                 {
-                    state.map(img => <div className="tabs__images-item"><img src={img} alt="property" /></div>)
+                    image.map(img => <div className="tabs__images-item"><img src={img.src} alt="property" /></div>)
                 }
 
             </div>

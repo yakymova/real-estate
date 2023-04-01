@@ -74,6 +74,7 @@
     color: #31353B;
 }
 .article__btn {
+    font-family: inherit;
     align-self: end;
     font-size: 18px;
     cursor: pointer;
