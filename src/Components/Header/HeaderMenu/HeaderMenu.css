@@ -10,14 +10,27 @@
     font-weight: 700;
     font-size: 13px;
     line-height: 17px;
+    position: relative;
 }
 .header__item:not(.active):hover {
     cursor: pointer;
     text-shadow: 1px 1px 1px #d0c0a8
 }
-
 .header__item.active {
     border-bottom: 1px solid #000000;
+}
+.header__item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    transition: all 0.3s;
+}
+.header__item:not(.active):hover::after {
+    width: 100%;
 }
 
 @media (max-width: 990.98px) {

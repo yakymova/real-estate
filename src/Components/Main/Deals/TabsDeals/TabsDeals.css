@@ -10,10 +10,24 @@
     border: none;
     background: none;
     padding-bottom: 12px;
+    position: relative;
 }
 .tabs__btn:not(.active):hover {
     text-shadow: 1px 1px 2px #000;
     cursor: pointer;
+}
+.tabs__btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    transition: all 0.3s;
+}
+.tabs__btn:not(.active):hover::after{
+    width: 100%;
 }
 .tabs__btn.active {
     font-weight: 600;
@@ -23,17 +37,26 @@
     border-bottom: 1px solid #F85A47;
 }
 .tabs__images {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 30px;
 }
 .tabs__images-item {
-    flex: 0 1 32%;
-    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 81%;
 }
 .tabs__images-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.tabs__images-item img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 @media (max-width: 992px) {
@@ -48,11 +71,6 @@
     .tabs__controls {
         flex-wrap: wrap;
         justify-content: start;
-    }
-}
-@media (max-width: 638.98px) {
-    .tabs__images {
-        flex-direction: column;
     }
 }
 @media (max-width: 574.98px) {
