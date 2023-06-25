@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/real-estate/static/css/main.d2ea93ee.css",
-    "main.js": "/real-estate/static/js/main.f56c01b8.js",
+    "main.css": "/real-estate/static/css/main.019e2317.css",
+    "main.js": "/real-estate/static/js/main.214372f4.js",
     "static/media/item1.jpg": "/real-estate/static/media/item1.24c64e0196a3fbceb334.jpg",
     "static/media/item3.jpg": "/real-estate/static/media/item3.3c60595a7a15fbc8062e.jpg",
     "static/media/start_image.png": "/real-estate/static/media/start_image.5f1af7b90b8bd4afedd0.png",
     "static/media/about-image.png": "/real-estate/static/media/about-image.d13ef861c63150e9df7f.png",
-    "static/media/blog-image.jpg": "/real-estate/static/media/blog-image.b55b0b6bd36b4b5014ac.jpg",
+    "static/media/featured_1.png": "/real-estate/static/media/featured_1.b0639f66d1236e73444a.png",
     "static/media/item2.jpg": "/real-estate/static/media/item2.61a6e60ace5a46ef22a5.jpg",
+    "static/media/featured_2.png": "/real-estate/static/media/featured_2.db54aed8e213db2be977.png",
     "static/media/arrow.png": "/real-estate/static/media/arrow.8c4ce23bec4d9c872736.png",
     "static/media/icon2.png": "/real-estate/static/media/icon2.7f28e3dd0933785df004.png",
     "static/media/icon3.webp": "/real-estate/static/media/icon3.deb090360402f74a8d3e.webp",
@@ -28,11 +29,11 @@
     "static/media/research.svg": "/real-estate/static/media/research.96a6fdd4975042821be760582e60d43b.svg",
     "index.html": "/real-estate/index.html",
     "static/media/line.svg": "/real-estate/static/media/line.7ff50b7680a78ac8f01b.svg",
-    "main.d2ea93ee.css.map": "/real-estate/static/css/main.d2ea93ee.css.map",
-    "main.f56c01b8.js.map": "/real-estate/static/js/main.f56c01b8.js.map"
+    "main.019e2317.css.map": "/real-estate/static/css/main.019e2317.css.map",
+    "main.214372f4.js.map": "/real-estate/static/js/main.214372f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2ea93ee.css",
-    "static/js/main.f56c01b8.js"
+    "static/css/main.019e2317.css",
+    "static/js/main.214372f4.js"
   ]
 }
