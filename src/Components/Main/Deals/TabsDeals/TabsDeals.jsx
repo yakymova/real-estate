@@ -41,7 +41,7 @@ const TabsDeals = (props) => {
             </div>
             <div className="tabs__images">
                 {
-                    image.map(img => <div className="tabs__images-item"><img src={img.src} alt="property" /></div>)
+                    image.map(img => <div className="tabs__images-item"><span>Featured</span><img src={img.src} alt="property" /></div>)
                 }
 
             </div>

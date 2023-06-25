@@ -9,13 +9,19 @@
 .about__container::after {
     content: "";
     background-color: #079e2d7c;
-    width: 45%;
+    width: 32%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 68%;
     z-index: -1; 
 }
+@media (min-width: 600px) {
+    .about__container::after {
+        width: 45%;
+    }
+}
+
 .about__title {
     flex: 1 0 100%;
     text-align: center;

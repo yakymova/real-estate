@@ -72,12 +72,7 @@
     background-color: #a73629;
 }
 
-@media (max-width: 767.98px) {
-    .footer__container {
-        margin-top: 100px;
-    }
-} 
-@media (max-width: 574.98px) {
+@media (max-width: 599.98px) {
     .footer__btn {
         padding: 13px 20px;
         margin: 0;

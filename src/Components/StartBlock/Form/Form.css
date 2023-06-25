@@ -24,7 +24,6 @@
 }
 .form__btn {
     flex: 0 0 188px;
-    width: 188px;
     color: #FFFFFF;
     background-color: #F85A47;
     border: none;
@@ -45,17 +44,40 @@
 @media (max-width: 767.98px) {
     .form {
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 22px;
+        height: 60px;
     }
     .form__btn {
-        flex: 0 1 auto;
+        flex: 0 1 47%;
     }
     .form__btn:hover{
-        cursor: pointer;
-        color: #BDCCFF;
-        background-color: #f85947e3;
-        text-shadow: 1px 1px 1px #000000;
         scale: 1;
         translate: 0;
+    }
+    .form__input {
+        background-position: 15px;
+        padding-left: 45px;
+        background-size: 16px;
+    }
+    .form__input::placeholder {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 479.98px) {
+    .form {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+    .form__input {
+        height: 40px;
+        border-color: rgb(162, 161, 161);
+    }
+    .form__btn {
+        padding: 10px;
+    }
+    .form__input::placeholder {
+        color: rgb(162, 161, 161);
     }
 }

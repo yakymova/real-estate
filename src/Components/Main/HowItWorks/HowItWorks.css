@@ -88,7 +88,7 @@
         transform: rotate(180deg) translate(-135%);
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
     .how-it {
         margin-top: 100px;
     }

@@ -3,7 +3,7 @@
     min-height: 837px;
     position: relative;
 }
-@media (max-width:1998.98px) {
+@media (max-width: 1998.98px) {
     .service__container {
         height: auto;
     }
@@ -11,12 +11,17 @@
 .service__container::after {
     content: "";
     background-color: #f2bdff45;
-    width: 45%;
+    width: 32%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 68%;
     z-index: -1; 
+}
+@media (min-width: 600px) {
+    .service__container::after {
+        width: 45%;
+    }
 }
 .service__article {
     margin-bottom: 35px;

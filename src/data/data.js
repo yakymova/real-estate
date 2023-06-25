@@ -20,6 +20,8 @@ import industrial3 from '../assets/images/deals/industrial/item3.jpg';
 import residential1 from '../assets/images/deals/residential/item1.jpg';
 import residential2 from '../assets/images/deals/residential/item2.jpg';
 import residential3 from '../assets/images/deals/residential/item3.jpg';
+import featuredBack from '../assets/images/featured_1.png';
+import featuredFront from '../assets/images/featured_2.png';
 import facebook from '../assets/icons/contacts/facebook.svg';
 import instagram from '../assets/icons/contacts/instagram.svg';
 import twitter from '../assets/icons/contacts/twitter.svg';
@@ -103,6 +105,22 @@ let state = {
                 industrial: [industrial1, industrial2, industrial3],
             }
         },
+        featured: {
+            title: 'Featured Listing of the Week',
+            subtitle: 'The and collecting for the motionless difficulty son.',
+            text: 'Conveying or northward offending admitting perfectly my. Colonel gravity get thought fat smiling add but difficult situations.',
+            options: {
+                budget: 'Confidential',
+                size: '1200 m2',
+                type: 'Office',
+                status: 'Done',
+                location: 'Switzerland',
+                flat: '8 Room'
+            },
+            imageFront: featuredFront,
+            imageBack: featuredBack,
+            btnText: 'yes! I want book "office package"'
+        }
     },
     footer: {
         title: 'Get Our Newsletter',
@@ -110,7 +128,7 @@ let state = {
         formHelp: 'Type your Email Address',
         formButton: 'Send Now',
         logo: 'SmartSpace',
-        copyring: 'Copyright © 2021 AR Shakir . All Rights Reseved.'
+        copyring: 'Copyright © 2021 AR Shakir. All Rights Reseved.'
     }
 }
 
